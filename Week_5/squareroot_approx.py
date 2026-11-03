@@ -1,6 +1,6 @@
 m_squarednumber = int(input("Enter a number to find the square root of: "))
 
-error_margin = 0.01
+error_margin = 0.00001
 
 m_guess = 0
 num_guesses = 0
