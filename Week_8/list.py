@@ -67,3 +67,21 @@ for index, value in enumerate(dummy_list):
 
 print(lenght_and_square([1,3,5]))"""
 
+nums1 = [1,2]
+nums2 = [2,3]
+
+for i in nums1:
+    for j in nums2:
+        if j == i:
+            break
+        nums2.append(i)
+        
+
+print(nums2)
+total = 0
+for i,n in enumerate(nums2):
+    total += n
+
+average = total / len(nums2)
+
+print(average)
